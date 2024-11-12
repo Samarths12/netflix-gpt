@@ -1,5 +1,8 @@
 -Create react app
 Then inatall tailwind css
+Header
+Routing
+Form validation
 
 
 # Features
