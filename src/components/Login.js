@@ -5,7 +5,7 @@ import {  createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProf
 import { auth } from "../utils/firebase";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
-import { USER_AVATAR } from "../utils/constants";
+import { BG_URL, USER_AVATAR } from "../utils/constants";
 
 
 const Login = () => {
@@ -91,7 +91,7 @@ const Login = () => {
         <div>
             <Header />
             <div className="absolute">
-                <img src="https://cdn.neowin.com/news/images/uploaded/2023/05/1683747988_background-size1920x1080-4e1694a6-75aa-4c36-9d4d-7fb6a3102005-bc5318781aad7f5c8520.jpg"
+                <img src={BG_URL}
                 alt="login" />
             </div>
             <form onSubmit={(e) => e.preventDefault()}  className="w-3/12 bg-black p-12 absolute my-36 mx-auto right-0 left-0 text-white bg-opacity-80">

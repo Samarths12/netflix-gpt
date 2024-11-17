@@ -4,6 +4,10 @@ export const USERICON = "https://wallpapers.com/images/hd/netflix-profile-pictur
 
 export const USER_AVATAR = "https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg";
 
+export const BG_URL = "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/netflixteaser.png";
+
+export const SUPPORTED_LANGUAGES =[{identifier: "en", name: "English"}, {identifier: "hindi", name: "Hindi"}, {identifier: "spanish", name: "Spanish"}]
+
 
 export const API_OPTIONS  = {
     method: "GET",
